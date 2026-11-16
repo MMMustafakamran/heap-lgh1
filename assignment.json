@@ -727,12 +727,12 @@
     33
    ],
    "notes": [
-    "Note: the featured row swapped in this take; earlier runs often kept the fallback row (render_ui, no renderer)."
+    "Note: the featured row swaps in some runs only (failed in today's last take: fallback row, render_ui has no renderer); Product/ProductRow are stubbed."
    ],
    "block": null,
    "links": [
     {
-     "text": "Issue",
+     "text": null,
      "clip": "LANGGRAPH-react-43-ComponentsSurfaces",
      "loom": "https://www.loom.com/share/c9e37bace4404d97a66680e747da0cbf",
      "narration": "narration/scripts/LANGGRAPH-react-43-ComponentsSurfaces.json",
@@ -1402,7 +1402,7 @@
    "block": null,
    "links": [
     {
-     "text": "Not Working",
+     "text": null,
      "clip": "LANGGRAPH-react-17-WebMCP",
      "loom": "https://www.loom.com/share/8dac82d77111432b93669f2114e9348a",
      "narration": "narration/scripts/LANGGRAPH-react-17-WebMCP.json",
