@@ -799,7 +799,7 @@ export const runKeyboardSendAction: PageActionHandler = keyboardSend;
 // ---------------------------------------------------------------------------------------------
 type Step =
   | { goto: string; holdMs?: number }
-  | { click: string; holdMs?: number }
+  | { click: string; holdMs?: number; optional?: boolean }
   | { select: number; value: string }
   | { prompt: string }
   | { waitText: string; timeoutMs?: number }
@@ -820,7 +820,12 @@ function scripted(steps: Step[]): PageActionHandler {
         await sleep(s.holdMs ?? 4000);
       } else if ('click' in s) {
         const el = page.getByText(s.click, { exact: false }).first();
-        await el.waitFor({ state: 'visible', timeout: 60000 });
+        // optional: a control that only shows sometimes (the dev inspector's hide button); absent = skip, not a 60 s stall.
+        const seen = await el.waitFor({ state: 'visible', timeout: s.optional ? 6000 : 60000 }).then(() => true).catch((e) => {
+          if (s.optional) return false;
+          throw e;
+        });
+        if (!seen) continue;
         await glideClick(page, el);
         await sleep(s.holdMs ?? 1500);
       } else if ('select' in s) {
@@ -908,7 +913,7 @@ export const SCRIPTED: Record<string, PageActionHandler> = {
   voice: withFinding(scripted([
     { holdMs: 4000 },
     { click: 'Try a sample audio', holdMs: 1500 },
-    { click: 'Hide Inspector for a day', holdMs: 1500 },
+    { click: 'Hide Inspector for a day', holdMs: 1500, optional: true },
     { click: 'Try a sample audio', holdMs: 2500 },
     { press: 'Enter', holdMs: 25000 },
   ])),
@@ -1420,3 +1425,28 @@ const headlessThreadsTake: PageActionHandler = async (page, config, root, ctx) =
   await sleep(3000);
 };
 export const runHeadlessThreadsAction: PageActionHandler = headlessThreadsTake;
+
+
+// Review 2026-11-16: State and actions, Markdown mode and Adopt from A2UI are ❌ (FINDINGS.md #43).
+Object.assign(FINDING_NOTES, {
+  'components-state-actions': [
+    'state and actions page says the agent renders a product card u can add to cart',
+    'asked for the trail runner card, reply just stays empty or says no renderer for render_ui',
+    'page never shows what a langgraph ts agent needs so i had to guess the agent,on it the card shows only sometimes',
+  ].join('\n'),
+  'components-markdown-mode': [
+    'markdown mode says the agent writes the ui inside its reply in a2ui blocks',
+    'asked for a seat estimator card,agent just answers in text,no card',
+    'only agent line on the page is for langgraph python,nothing for ts so the agent is guessed',
+  ].join('\n'),
+  'components-from-a2ui': [
+    'adopt from a2ui says the airport and arrow catalog renders after the move',
+    'asked for my sfo to jfk flight,no card, render_ui has no renderer',
+    'page shows no langgraph ts agent setup,on a guessed agent it renders only some runs',
+  ].join('\n'),
+});
+Object.assign(FINDING_EVIDENCE, {
+  'components-state-actions': [{ text: 'The agent does not know how many items are in the cart, and it must not guess.', caption: 'no LangGraph TS agent setup (FINDINGS.md #43)' }],
+  'components-markdown-mode': [{ text: 'For a LangGraph Python agent, add CopilotKitMiddleware.', caption: 'only Python agent guidance (FINDINGS.md #43)' }],
+  'components-from-a2ui': [{ text: 'Move an app from the a2ui renderer to components and surfaces', caption: 'no LangGraph TS agent setup (FINDINGS.md #43)' }],
+});

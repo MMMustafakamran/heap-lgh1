@@ -146,8 +146,9 @@
     {
      "text": "Quickstart - JS",
      "clip": "LANGGRAPH-react-01-Quickstart",
-     "loom": "https://www.loom.com/share/b34a230d80d64dc0815db2ea20628078",
-     "narration": null
+     "loom": "https://www.loom.com/share/cc3aba682dad477ab01bd495e768e854",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -172,8 +173,9 @@
     {
      "text": "CopilotChat - JS",
      "clip": "LANGGRAPH-react-22-PrebuiltChat",
-     "loom": "https://www.loom.com/share/745b740be8424106b0ee7c6597fcc4c0",
-     "narration": null
+     "loom": "https://www.loom.com/share/bcdc48ea16eb4286a399958041a935be",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -198,8 +200,9 @@
     {
      "text": "CopilotSidebar - JS",
      "clip": "LANGGRAPH-react-24-PrebuiltSidebar",
-     "loom": "https://www.loom.com/share/8b516f67e6f040b7a7c05887059211d1",
-     "narration": null
+     "loom": "https://www.loom.com/share/b175d16e1ebd412c93e1543219ea2113",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -224,8 +227,9 @@
     {
      "text": "CopilotPopup - JS",
      "clip": "LANGGRAPH-react-23-PrebuiltPopup",
-     "loom": "https://www.loom.com/share/82f7a84b19cd464faa049c82ee064261",
-     "narration": null
+     "loom": "https://www.loom.com/share/32bac6a23cf84c85bfd593a64b034a33",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -250,8 +254,9 @@
     {
      "text": "Open,Close and Feedback - JS",
      "clip": "LANGGRAPH-react-25-ChatControls",
-     "loom": "https://www.loom.com/share/661683d848d84fbabd33772a88f86dea",
-     "narration": null
+     "loom": "https://www.loom.com/share/d7a8a0d6351a4ce691167ee7f85af1b6",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -280,8 +285,9 @@
     {
      "text": null,
      "clip": "LANGGRAPH-react-68-ThreadsDrawer",
-     "loom": "https://www.loom.com/share/4dd396d78d36485aad263cac731957ae",
-     "narration": null
+     "loom": "https://www.loom.com/share/706db476f9784a9f8fc56e35c82e5b32",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -310,8 +316,9 @@
     {
      "text": null,
      "clip": "LANGGRAPH-react-69-HeadlessThreads",
-     "loom": "https://www.loom.com/share/2cea95a508b04b1cbb40e7f8ebea8662",
-     "narration": null
+     "loom": "https://www.loom.com/share/e12efc137a4c4ce28ce5f762d8e5ec1e",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -336,8 +343,9 @@
     {
      "text": "Css Customization - JS",
      "clip": "LANGGRAPH-react-26-CSS",
-     "loom": "https://www.loom.com/share/05af0a5fe1674c37a3ac300f7962c1ba",
-     "narration": null
+     "loom": "https://www.loom.com/share/36a263524de54ae9a5c621d87268097b",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -362,8 +370,9 @@
     {
      "text": "Markdown - JS",
      "clip": "LANGGRAPH-react-29-Markdown",
-     "loom": "https://www.loom.com/share/44cede60021648ce8acefce09308f32f",
-     "narration": null
+     "loom": "https://www.loom.com/share/97b85147e09c4e84b69d9d0754c7edef",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -388,8 +397,9 @@
     {
      "text": "Slots - JS",
      "clip": "LANGGRAPH-react-27-Slots",
-     "loom": "https://www.loom.com/share/27d18422422d4b3e987a370896afdf91",
-     "narration": null
+     "loom": "https://www.loom.com/share/8abc48fffe4d480483bfbf019186ee5c",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -414,8 +424,9 @@
     {
      "text": "Fully Headless UI - JS",
      "clip": "LANGGRAPH-react-28-HeadlessUI",
-     "loom": "https://www.loom.com/share/54df181d08ae45218d27f4e130f07ac5",
-     "narration": null
+     "loom": "https://www.loom.com/share/ac4e570f389447029617f8cf3c72f87c",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -501,8 +512,9 @@
     {
      "text": "Multimodal Attachments - JS",
      "clip": "LANGGRAPH-react-56-Multimodal",
-     "loom": "https://www.loom.com/share/6f3c98ca018d4ad0a77fdf41040bf3d7",
-     "narration": null
+     "loom": "https://www.loom.com/share/5248b3df7dbd4135a125ab7ab9da5b40",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -557,8 +569,9 @@
     {
      "text": "Frontend Tools - JS",
      "clip": "LANGGRAPH-react-02-FrontendTools",
-     "loom": "https://www.loom.com/share/bc7e8efedecb425fac2ee07d5d304335",
-     "narration": null
+     "loom": "https://www.loom.com/share/30d07b8e7d644e63b9eaba2b4b1a5290",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -583,8 +596,9 @@
     {
      "text": "Components as Tools - JS",
      "clip": "LANGGRAPH-react-58-ComponentsAsTools",
-     "loom": "https://www.loom.com/share/512f8d7582d04e8daf3f4a1d23e56092",
-     "narration": null
+     "loom": "https://www.loom.com/share/a1b41e248a5546f483624786c5358dcc",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -613,20 +627,23 @@
     {
      "text": "Tool Call Rendering - JS",
      "clip": "LANGGRAPH-react-09-ToolRendering",
-     "loom": "https://www.loom.com/share/d72c6deff3e74ccb8df0d94f1b67e0dc",
-     "narration": null
+     "loom": "https://www.loom.com/share/6d50d8d972894fc7a682c27410d33b4e",
+     "narration": null,
+     "filmed": "2026-11-16"
     },
     {
      "text": "Default catch-all - JS",
      "clip": "LANGGRAPH-react-10-ToolRenderingDefault",
-     "loom": "https://www.loom.com/share/15ff6645138644a38e0e49df1f674f9e",
-     "narration": null
+     "loom": "https://www.loom.com/share/bcd2be649b634018bd7d76a730dcc5eb",
+     "narration": null,
+     "filmed": "2026-11-16"
     },
     {
      "text": "Custom catch-all - JS",
      "clip": "LANGGRAPH-react-11-ToolRenderingCustom",
-     "loom": "https://www.loom.com/share/7a813c962bc0419699f9b0de10cc79ce",
-     "narration": null
+     "loom": "https://www.loom.com/share/b83ed74366054f51895b6f643774206e",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -651,8 +668,9 @@
     {
      "text": "State Rendering - JS",
      "clip": "LANGGRAPH-react-59-StateRendering",
-     "loom": "https://www.loom.com/share/6a9cebe6e9074c4b8f08b2632d4ea73a",
-     "narration": null
+     "loom": "https://www.loom.com/share/8a16305106554ab0a7e9bccab730b92d",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -682,8 +700,9 @@
     {
      "text": "Not Working",
      "clip": "LANGGRAPH-react-13-Components",
-     "loom": "https://www.loom.com/share/1131245aa386433b9a1ff57dcfcbe144",
-     "narration": "narration/scripts/LANGGRAPH-react-13-Components.json"
+     "loom": "https://www.loom.com/share/b44deedbd903469bb931d46c059f6762",
+     "narration": "narration/scripts/LANGGRAPH-react-13-Components.json",
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -791,17 +810,18 @@
    "child": false,
    "docPath": "generative-ui/components/state-and-actions",
    "reachable": "sidebar",
-   "status": "✅",
+   "status": "❌",
    "findings": [
-    32
+    32,
+    43
    ],
    "notes": [
-    "Note: product cards render in this take; some earlier runs rendered nothing."
+    "Issue: no product card renders in today's takes (empty reply, render_ui has no renderer); the page never shows a LangGraph TS agent setup."
    ],
    "block": null,
    "links": [
     {
-     "text": "State and actions - JS",
+     "text": "Issue",
      "clip": "LANGGRAPH-react-46-ComponentsStateActions",
      "loom": "https://www.loom.com/share/995de1dde1504cdf88fb9c36e2e2049c",
      "narration": null
@@ -833,8 +853,9 @@
     {
      "text": "Theming - JS",
      "clip": "LANGGRAPH-react-44-ComponentsTheming",
-     "loom": "https://www.loom.com/share/91ebdf4bf4804fe29ab1f48283c6c94e",
-     "narration": null
+     "loom": "https://www.loom.com/share/42cf9c6856ad4a7dac0272301f14b4cc",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -864,8 +885,9 @@
     {
      "text": "Transports - JS",
      "clip": "LANGGRAPH-react-45-ComponentsTransports",
-     "loom": "https://www.loom.com/share/173fbb204e804acba08e8e15c3e3e30a",
-     "narration": null
+     "loom": "https://www.loom.com/share/65704a8793ee486d8edb87ba3a3d460b",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -882,13 +904,14 @@
    "child": false,
    "docPath": "generative-ui/components/markdown-mode",
    "reachable": "sidebar",
-   "status": "✅",
+   "status": "❌",
    "findings": [
     25,
-    38
+    38,
+    43
    ],
    "notes": [
-    "Note: card rendered in about half of the earlier runs; the others answered in text only. The page shows no LangGraph JS agent (harness graph)."
+    "Issue: no card renders in today's takes, the agent answers in text only; the page's only agent guidance is for LangGraph Python."
    ],
    "block": null,
    "links": [
@@ -913,17 +936,18 @@
    "child": false,
    "docPath": "generative-ui/components/from-a2ui",
    "reachable": "sidebar",
-   "status": "✅",
+   "status": "❌",
    "findings": [
-    39
+    39,
+    43
    ],
    "notes": [
-    "Note: card rendered in this take; earlier runs often rendered nothing."
+    "Issue: the Airport/Arrow card renders only some runs (failed today, render_ui has no renderer); the page never shows a LangGraph TS agent setup."
    ],
    "block": null,
    "links": [
     {
-     "text": "Adopt from A2UI - JS",
+     "text": "Issue",
      "clip": "LANGGRAPH-react-61-ComponentsFromA2UI",
      "loom": "https://www.loom.com/share/b44d78919cee4724ab0911b3423705b6",
      "narration": null
@@ -988,8 +1012,9 @@
     {
      "text": "Issue",
      "clip": "LANGGRAPH-react-39-A2UIDynamicSchema",
-     "loom": "https://www.loom.com/share/6e1edc84a5d4410ea172e04784631a60",
-     "narration": "narration/scripts/LANGGRAPH-react-39-A2UIDynamicSchema.json"
+     "loom": "https://www.loom.com/share/0d96c602e81847239eb8768adcaad5a9",
+     "narration": "narration/scripts/LANGGRAPH-react-39-A2UIDynamicSchema.json",
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1014,8 +1039,9 @@
     {
      "text": "Fixed Schema -JS",
      "clip": "LANGGRAPH-react-40-A2UIFixedSchema",
-     "loom": "https://www.loom.com/share/8b4f32036dea4d6e9577c0f2b65657d9",
-     "narration": null
+     "loom": "https://www.loom.com/share/6a0f51e2934e43039dd7a461a6f5511c",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1040,8 +1066,9 @@
     {
      "text": "JSON Render -JS",
      "clip": "LANGGRAPH-react-34-JsonRender",
-     "loom": "https://www.loom.com/share/82c44338058b40d081426e92ea442508",
-     "narration": null
+     "loom": "https://www.loom.com/share/e45c997f01704b1081ab0a64fae3f23c",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1066,8 +1093,9 @@
     {
      "text": "Hashbrown -JS",
      "clip": "LANGGRAPH-react-35-Hashbrown",
-     "loom": "https://www.loom.com/share/63918557026e4317b65ba0e9bf404fd2",
-     "narration": null
+     "loom": "https://www.loom.com/share/d5448d6c3dd245e8947b3760c6ac338f",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1179,8 +1207,9 @@
     {
      "text": "Not Working",
      "clip": "LANGGRAPH-react-62-RenderAgentState",
-     "loom": "https://www.loom.com/share/ca34be1a38d74294aaef0d1a9c828335",
-     "narration": "narration/scripts/LANGGRAPH-react-62-RenderAgentState.json"
+     "loom": "https://www.loom.com/share/1341b92281fa46e5822c4959edaee839",
+     "narration": "narration/scripts/LANGGRAPH-react-62-RenderAgentState.json",
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1209,8 +1238,9 @@
     {
      "text": "State Streaming -JS",
      "clip": "LANGGRAPH-react-08-StateStreaming",
-     "loom": "https://www.loom.com/share/8718d2f377a442c78a7c0dd53dfa97e3",
-     "narration": null
+     "loom": "https://www.loom.com/share/bb04b4fce8b64f18bb6b0206025934f3",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1235,8 +1265,9 @@
     {
      "text": "Agent read-only context -JS",
      "clip": "LANGGRAPH-react-48-AgentReadOnly",
-     "loom": "https://www.loom.com/share/ce3fd1e2622a4667aaebf6814c2e9c72",
-     "narration": null
+     "loom": "https://www.loom.com/share/b2a456d3459a43128e7efc33610da6e8",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1263,8 +1294,9 @@
     {
      "text": "HITL-JS",
      "clip": "LANGGRAPH-react-03-HumanInTheLoop",
-     "loom": "https://www.loom.com/share/83146d3ca6fb45e8ad9f7d7190bed4df",
-     "narration": null
+     "loom": "https://www.loom.com/share/e03505cbac774ffdb91b0b7d53449da0",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1361,8 +1393,9 @@
     {
      "text": "Not Working",
      "clip": "LANGGRAPH-react-17-WebMCP",
-     "loom": "https://www.loom.com/share/e9a348bd2e484e1c9e2d4bc04f1c0393",
-     "narration": "narration/scripts/LANGGRAPH-react-17-WebMCP.json"
+     "loom": "https://www.loom.com/share/8dac82d77111432b93669f2114e9348a",
+     "narration": "narration/scripts/LANGGRAPH-react-17-WebMCP.json",
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1410,8 +1443,9 @@
     {
      "text": "Readables - Custom Graph -JS",
      "clip": "LANGGRAPH-react-54-AgentAppContext",
-     "loom": "https://www.loom.com/share/fe17e180c7724e61ad3714da64f29a2a",
-     "narration": null
+     "loom": "https://www.loom.com/share/49ae53f5cd0e41b28a3ede25b8c37c60",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1438,8 +1472,9 @@
     {
      "text": "Readables -Prebuilt agent -JS",
      "clip": "LANGGRAPH-react-63-ReadablesPrebuilt",
-     "loom": "https://www.loom.com/share/28999b36b1184111a7092fa337c49892",
-     "narration": null
+     "loom": "https://www.loom.com/share/847feebd65814958aa40b3a4dca15d55",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1497,8 +1532,9 @@
     {
      "text": "Not Working",
      "clip": "LANGGRAPH-react-65-Configurable",
-     "loom": "https://www.loom.com/share/d6a4665dbf0c4f29b9e2a3288a7cbca8",
-     "narration": "narration/scripts/LANGGRAPH-react-65-Configurable.json"
+     "loom": "https://www.loom.com/share/841773a687d24b5f82308a6faab9753e",
+     "narration": "narration/scripts/LANGGRAPH-react-65-Configurable.json",
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1569,8 +1605,9 @@
     {
      "text": "Subagents -JS",
      "clip": "LANGGRAPH-react-15-SubAgents",
-     "loom": "https://www.loom.com/share/bb46ad7f4b4c4d6c943dde0c621d57b3",
-     "narration": null
+     "loom": "https://www.loom.com/share/b52685f4f3dc4366896e1dade6986f16",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {

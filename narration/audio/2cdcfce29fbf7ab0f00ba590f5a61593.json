@@ -1,0 +1,9 @@
+{
+ "text": "Moving on to the demo. It should show the airport and arrow flight card, but uh, nothing renders, the run says no renderer.",
+ "model": "s2.1-pro-free",
+ "refSha256": "2c9d0ecf4608feacc07c88e869cd4dec601481306a939b7be92fc1bff521a727",
+ "duration": 10.031,
+ "file": "2cdcfce29fbf7ab0f00ba590f5a61593.mp3",
+ "clip": "LANGGRAPH-react-61-ComponentsFromA2UI",
+ "at": "demo"
+}

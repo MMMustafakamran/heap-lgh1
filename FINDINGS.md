@@ -41,6 +41,11 @@ Stack: `@copilotkit/react-core`/`runtime` 1.85.0, `@copilotkit/sdk-js` 1.85.0 (d
 - **Doc:** the TypeScript tab only shows a direct `graph.invoke(input, { context: { tenantId }, recursionLimit: 50 })`.
 - **Result:** no frontend or `LangGraphAgent` code sets context for a graph run through CopilotKit and the LangGraph server (the setup the quickstart builds), so the page can't be built. The language tabs also default to Python on the TypeScript track.
 
+### [State and actions](https://docs.copilotkit.ai/langgraph-typescript/generative-ui/components/state-and-actions), [Markdown mode](https://docs.copilotkit.ai/langgraph-typescript/generative-ui/components/markdown-mode), [Adopt from A2UI](https://docs.copilotkit.ai/langgraph-typescript/generative-ui/components/from-a2ui)
+**#43 No LangGraph TypeScript agent setup on these pages, and on a guessed agent the UI renders only sometimes.**
+- **Doc:** the pages show the provider and catalog only; Markdown mode's only agent line is "For a LangGraph Python agent, add `CopilotKitMiddleware`" (#25).
+- **Result:** on the harness agent (`genui.harness.ts`) both CI takes of 2026-11-16 (CopilotKit 1.88.0) failed on State and actions and Markdown mode (empty reply, `render_ui` "no renderer is registered", or a text-only "Here's a card..."); Adopt from A2UI rendered once and failed once. Earlier rates: #32, #38, #39.
+
 ## Minor notes
 - #35 [Headless Threads](https://docs.copilotkit.ai/langgraph-typescript/headless-threads): `ThreadSidebar` calls `useThreads({ agentId: "my-agent" })`, but the page's own `server.ts` registers only `default` (and the chat runs as `default`), so the thread list stays empty. Works with `agentId: "default"` (HARNESS line). Its `server.ts` also uses `agent` and `verifyAppSession` without defining them (harness stand-ins).
 - #12 [MCP Apps](https://docs.copilotkit.ai/langgraph-typescript/generative-ui/mcp-apps): the main runtime snippet uses `process.env.MCP_SERVER_URL || "https://mcp.excalidraw.com"`, which 308-redirects to `/mcp`, so no Excalidraw tools load; the `.../mcp` URL shown further down the page works.
