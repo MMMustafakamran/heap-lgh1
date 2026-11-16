@@ -977,7 +977,8 @@
    "reachable": "sidebar",
    "status": "❌",
    "findings": [
-    34
+    34,
+    42
    ],
    "notes": [
     "Issue: no dashboard renders; the chat shows \"A2UI render error: Cannot read properties of undefined (reading 'map')\"."

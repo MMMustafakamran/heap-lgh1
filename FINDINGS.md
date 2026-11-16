@@ -20,6 +20,10 @@ Stack: `@copilotkit/react-core`/`runtime` 1.85.0, `@copilotkit/sdk-js` 1.85.0 (d
 - **Doc:** "the agent can render any UI for any request without pre-defined schemas" and "renders cards progressively as data items arrive"; catalog + provider as on the page.
 - **Result (1.85.0, CI 2026-11-09):** asking "Show my team performance." renders no dashboard. The chat shows a red box `A2UI render error: Cannot read properties of undefined (reading 'map')` (browser console: `[A2UI] processMessages error: TypeError: Cannot read properties of undefined (reading 'map') at PayloadValidator.validateComponent`), and the agent still replies "I've shown your team performance dashboard."
 
+**#42 The renderers snippet uses `tooltipStyle` and `barCursor`, which the page never defines (doc change 2026-11-16).**
+- **Doc:** `renderers.tsx` (PieChart) `<Tooltip contentStyle={tooltipStyle} />` and (BarChart) `<Tooltip contentStyle={tooltipStyle} cursor={barCursor} />`; neither name is declared or imported anywhere on the page.
+- **Error:** `tsc`: `Cannot find name 'tooltipStyle'` / `Cannot find name 'barCursor'`. At runtime the PieChart and BarChart renderers throw `ReferenceError: tooltipStyle is not defined` as soon as the agent draws one of those charts.
+
 ### [Voice](https://docs.copilotkit.ai/langgraph-typescript/voice)
 **#36 The page imports a `VoiceChat` component it never shows.**
 - **Doc:** `page.tsx` has `import { VoiceChat } from "./voice-chat";` and renders `<VoiceChat />`. No step or Code tab file shows `voice-chat.tsx` (the Code tab lists `page.tsx`, `sample-audio-button.tsx`, `route.ts`); only the sentence "The parent chat component can then drop that text into the composer's textarea ..." describes it.
