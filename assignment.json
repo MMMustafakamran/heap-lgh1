@@ -4,8 +4,8 @@
  "repo": "LangGraph-react",
  "docBase": "https://docs.copilotkit.ai/langgraph-typescript/",
  "versions": {
-  "@copilotkit/react-core": "1.85.0",
-  "@copilotkit/runtime": "1.85.0",
+  "@copilotkit/react-core": "1.88.0",
+  "@copilotkit/runtime": "1.88.0",
   "@copilotkit/sdk-js": "1.85.0",
   "@langchain/langgraph": "1.7.2",
   "@langchain/core": "1.3.5",
@@ -455,8 +455,9 @@
     {
      "text": "Issue",
      "clip": "LANGGRAPH-react-12-Reasoning",
-     "loom": "https://www.loom.com/share/1bbb07eecafa46909a5aa15d2d6a96be",
-     "narration": null
+     "loom": "https://www.loom.com/share/50abb597ffde49bb9ceefcfcbdd48a3e",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -543,8 +544,9 @@
     {
      "text": "Not Working",
      "clip": "LANGGRAPH-react-67-Voice",
-     "loom": "https://www.loom.com/share/dfc827726dc446c9a8ea67be12f64068",
-     "narration": "narration/scripts/LANGGRAPH-react-67-Voice.json"
+     "loom": "https://www.loom.com/share/7ab337768257429eab9321a354596307",
+     "narration": "narration/scripts/LANGGRAPH-react-67-Voice.json",
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -732,8 +734,9 @@
     {
      "text": "Issue",
      "clip": "LANGGRAPH-react-43-ComponentsSurfaces",
-     "loom": "https://www.loom.com/share/34289164c1444083884c5981480cc18b",
-     "narration": "narration/scripts/LANGGRAPH-react-43-ComponentsSurfaces.json"
+     "loom": "https://www.loom.com/share/c9e37bace4404d97a66680e747da0cbf",
+     "narration": "narration/scripts/LANGGRAPH-react-43-ComponentsSurfaces.json",
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -762,8 +765,9 @@
     {
      "text": "Catalogs - JS",
      "clip": "LANGGRAPH-react-42-ComponentsCatalogs",
-     "loom": "https://www.loom.com/share/2b330b36b5f74e6c9f173f1578e3deb8",
-     "narration": null
+     "loom": "https://www.loom.com/share/fde05b801b254e20b3e1b4c0da4d7ceb",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -792,8 +796,9 @@
     {
      "text": "Issue",
      "clip": "LANGGRAPH-react-60-ComponentsStandardCatalog",
-     "loom": "https://www.loom.com/share/29eed8b77e984a49bb4b8476e4f508cc",
-     "narration": null
+     "loom": "https://www.loom.com/share/bd799baa5e6c4b59a9ed7830aeaddac6",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -823,8 +828,9 @@
     {
      "text": "Issue",
      "clip": "LANGGRAPH-react-46-ComponentsStateActions",
-     "loom": "https://www.loom.com/share/995de1dde1504cdf88fb9c36e2e2049c",
-     "narration": null
+     "loom": "https://www.loom.com/share/209423b2082140cabeacffe00d175488",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -918,8 +924,9 @@
     {
      "text": "Issue",
      "clip": "LANGGRAPH-react-47-ComponentsMarkdownMode",
-     "loom": "https://www.loom.com/share/5ebc9e00973b4d63b92a5de1547a5b32",
-     "narration": "narration/scripts/LANGGRAPH-react-47-ComponentsMarkdownMode.json"
+     "loom": "https://www.loom.com/share/f242c5144b364994b45e82085c6dc4b6",
+     "narration": "narration/scripts/LANGGRAPH-react-47-ComponentsMarkdownMode.json",
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -949,8 +956,9 @@
     {
      "text": "Issue",
      "clip": "LANGGRAPH-react-61-ComponentsFromA2UI",
-     "loom": "https://www.loom.com/share/b44d78919cee4724ab0911b3423705b6",
-     "narration": null
+     "loom": "https://www.loom.com/share/39aebb3a20114891b1154cb116232187",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1120,8 +1128,9 @@
     {
      "text": "Open Generative UI -JS",
      "clip": "LANGGRAPH-react-36-OpenGenerativeUI",
-     "loom": "https://www.loom.com/share/e0d89e63b20749ee985b3b0bf52b6a66",
-     "narration": null
+     "loom": "https://www.loom.com/share/86a6c19eaef3479da6c1eebdd2ff37ab",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1150,8 +1159,9 @@
     {
      "text": "MCP Apps - JS",
      "clip": "LANGGRAPH-react-14-McpApps",
-     "loom": "https://www.loom.com/share/b7ac389e154c4812923bf0f7fb94615a",
-     "narration": null
+     "loom": "https://www.loom.com/share/e185f91c174e40d38d95f215d06cd318",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
@@ -1207,7 +1217,7 @@
     {
      "text": "Not Working",
      "clip": "LANGGRAPH-react-62-RenderAgentState",
-     "loom": "https://www.loom.com/share/1341b92281fa46e5822c4959edaee839",
+     "loom": "https://www.loom.com/share/06d836543caa46ad8eab64d18dc878fe",
      "narration": "narration/scripts/LANGGRAPH-react-62-RenderAgentState.json",
      "filmed": "2026-11-16"
     }
@@ -1365,8 +1375,9 @@
     {
      "text": "Governed Actions Approval",
      "clip": "LANGGRAPH-react-53-GovernedActions",
-     "loom": "https://www.loom.com/share/2c67ecd030484cb9889ce7b9526fe550",
-     "narration": null
+     "loom": "https://www.loom.com/share/a24e5aab2b3e4eef8e96e89a6d2d3698",
+     "narration": null,
+     "filmed": "2026-11-16"
     }
    ],
    "review": {
