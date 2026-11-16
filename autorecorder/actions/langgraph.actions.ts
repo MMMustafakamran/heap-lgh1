@@ -9,6 +9,7 @@ import { closeNotepad, openNotepad, typeInNotepad } from '../core/overlays/notep
 import { clickTaskbarApp, ensureOverlays, waitForHydration } from '../core/overlays/taskbar';
 import { checkpoint, describe, logAction, mark, probeText, tracked } from '../core/timeline';
 import { SELECTORS } from '../config/selectors.config';
+import { registerDocEvidence } from '../core/doc-evidence';
 
 import { humanizeNote } from '../core/overlays/note-style';
 /** Probe: the last assistant message's text (null when there is none). Read-only. */
@@ -362,7 +363,10 @@ export const KNOWN_ISSUE = new Set<string>([
   'components', 'a2ui-dynamic', 'configurable',
 ]);
 
-/** Type a page's finding into Notepad at the end of its take, after showing it on the doc. */
+/** Doc step: highlight each page's faulty doc text before the IDE (AUTORECORDER §2; level-2 pages get none). */
+registerDocEvidence(FINDING_EVIDENCE, { skip: KNOWN_ISSUE });
+
+/** Type a page's finding into Notepad at the end of its take. */
 export async function writeFinding(page: Page, id: string, config?: PageRecordConfig): Promise<void> {
   const body = FINDING_NOTES[id];
   if (!body) return;
@@ -370,7 +374,7 @@ export async function writeFinding(page: Page, id: string, config?: PageRecordCo
     if (config?.docOnly) await showDocEvidence(page, config).catch((e) => console.warn(`   ⚠️ Doc evidence step failed: ${String(e).slice(0, 120)}`));
     return;
   }
-  if (config) await showDocEvidence(page, config).catch((e) => console.warn(`   ⚠️ Doc evidence step failed: ${String(e).slice(0, 120)}`));
+  // The doc highlight now runs in the doc step, before the IDE (core/doc-evidence, registered below).
   mark('notepad');
   await openNotepad(page, `finding-${id}.txt`);
   await typeInNotepad(page, humanizeNote(body), TYPING);

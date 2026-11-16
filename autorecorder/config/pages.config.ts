@@ -329,7 +329,7 @@ export const PAGES = definePages([
   {
     id: 'components-surfaces', name: 'Generative UI - Components: Surfaces', videoName: 'ComponentsSurfaces',
     docPath: 'generative-ui/components/surfaces', route: 'generative-ui/components-sub/surfaces',
-    ideFile: 'frontend/app/generative-ui/components-sub/surfaces/page.tsx', startLine: 10, endLine: 47,
+    ideFile: 'frontend/app/generative-ui/components-sub/surfaces/page.tsx', ideAddedText: 'type Product = { name: string; price: number }; // HARNESS', startLine: 10, endLine: 47,
     prompt: "Show cheap running shoes in the featured products area.",
     timeouts: { replyStartMs: 180000, replyStreamMs: 180000 },
   },
