@@ -1,0 +1,27 @@
+- The agent must send the UI to the browser somehow. Some agents are good at tool calls. Others only stream text, or you build their prompt yourself. A **transport** is the way the UI travels:
+- Both transports use the same catalogs, surfaces, and components. Only the path between the agent and the browser changes.
+- | Checked before the browser gets it | yes, by the runtime, and again in the browser | in the browser |
+- <Tabs groupId="frontend_framework" items={["React", "Angular"]} persist>
+- When a run carries the catalog, the runtime adds the `render_ui` tool and a short guide on how to call it. The runtime checks every operation while it streams, and the browser renders the valid ones at once.
++ 
++ The agent must send the UI to the app somehow: the browser, or a React Native app. Some agents are good at tool calls. Others only stream text, or you build their prompt yourself. A **transport** is the way the UI travels:
++ Both transports use the same catalogs, surfaces, and components. Only the path between the agent and the app changes.
++ | Checked before the app gets it | yes, by the runtime, and again in the app | in the app |
++ <Tabs groupId="frontend_framework" items={["React", "Angular", "React Native", "Vue"]} persist>
++     ```tsx
++     ```
++   </Tab>
++   <Tab value="React Native">
++     <GenerativeUIProvider ui={shopUI}>
++     React Native always uses the tool transport. It has no `standardUI`, so `shopUI` stands for a catalog of your own native components.
++   <Tab value="Vue">
++     ```vue
++     <CopilotKitProvider runtime-url="/api/copilotkit" :generativeUI="{ ui: standardUI }">
++ When a run carries the catalog, the runtime adds the `render_ui` tool and a short guide on how to call it. The runtime checks every operation while it streams, and the browser (on React Native, the app) renders the valid ones at once.
++     Not available on React Native yet. `GenerativeUIProvider` always uses the tool transport, and `transport: "markdown"` is a type error there. A transport passed from JavaScript, or through a cast, is dropped, with a warning in development.
++     <CopilotKitProvider runtime-url="/api/copilotkit" :generativeUI="{ ui: standardUI, transport: 'markdown' }">
++     <CopilotKitProvider
++     >
++     <GenerativeUIProvider ui={shopUI} agentIds={["shop"]}>
++       runtime-url="/api/copilotkit"
++       :generativeUI="{ ui: standardUI, agentIds: ['shop'] }"

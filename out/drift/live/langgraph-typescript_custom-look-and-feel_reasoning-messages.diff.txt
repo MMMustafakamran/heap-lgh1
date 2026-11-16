@@ -1,0 +1,4 @@
+- > Customize how reasoning (thinking) tokens from models like o1, o3, and o4-mini are displayed.
+- Some models (like OpenAI's o1, o3, and o4-mini) emit **reasoning tokens**: internal
++ > Customize how reasoning (thinking) tokens from models like `gpt-6-luna` are displayed.
++ Some models (like `gpt-6-luna`) emit **reasoning tokens**: internal

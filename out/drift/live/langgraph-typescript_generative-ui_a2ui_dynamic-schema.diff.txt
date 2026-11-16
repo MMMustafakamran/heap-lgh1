@@ -1,0 +1,8 @@
+-       up: "#059669",
+-       down: "#dc2626",
+-                 <Tooltip />
++       up: "light-dark(#059669, #34d399)",
++       down: "light-dark(#dc2626, #f87171)",
++                   stroke="var(--card)"
++                 <Tooltip contentStyle={tooltipStyle} />
++                 <Tooltip contentStyle={tooltipStyle} cursor={barCursor} />

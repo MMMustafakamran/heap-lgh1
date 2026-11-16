@@ -1,0 +1,4 @@
+-     <div className="grid h-screen grid-cols-[1fr_420px] bg-[#FAFAFC]">
+-       <div className="border-l border-[#DBDBE5] bg-white">
++     <div className="grid h-screen grid-cols-[1fr_420px] bg-[#FAFAFC] dark:bg-background">
++       <div className="border-l border-[#DBDBE5] bg-white dark:border-border dark:bg-background">

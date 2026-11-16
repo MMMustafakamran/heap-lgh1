@@ -1,0 +1,11 @@
+-                         model = ChatOpenAI(model="gpt-5.4")
+-                             model: "gpt-5.4",
+-                             modelKwargs: { parallel_tool_calls: false },
+-                 model="openai:gpt-5.4",
+-                 model: "openai:gpt-5.4",
++                         model = ChatOpenAI(model="gpt-6-luna", reasoning_effort="none")
++                             model: "gpt-6-luna",
++                             modelKwargs: { parallel_tool_calls: false, reasoning_effort: "none" },
++             from langchain_openai import ChatOpenAI
++                 model=ChatOpenAI(model="gpt-6-luna", reasoning_effort="none"),
++                 model: "openai:gpt-6-luna",

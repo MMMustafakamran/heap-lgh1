@@ -1,0 +1,8 @@
+-                 response = ChatOpenAI(model="gpt-5.4").invoke(
+-                 const response = await new ChatOpenAI({ model: "gpt-5.4" }).invoke(
+-                   response = ChatOpenAI(model="gpt-5.4").invoke(
+-                   const response = await new ChatOpenAI({ model: "gpt-5.4" }).invoke(
++                 response = ChatOpenAI(model="gpt-6-luna", reasoning_effort="none").invoke(
++                 const response = await new ChatOpenAI({ modelKwargs: { reasoning_effort: "none" }, model: "gpt-6-luna" }).invoke(
++                   response = ChatOpenAI(model="gpt-6-luna", reasoning_effort="none").invoke(
++                   const response = await new ChatOpenAI({ modelKwargs: { reasoning_effort: "none" }, model: "gpt-6-luna" }).invoke(
